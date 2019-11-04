@@ -1188,15 +1188,15 @@ ENDIF
 
 RETURN lRet
 
-* ±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
-STATIC PROCEDURE F_WriteVer( nHandleOut, cStr, cBuff )
-* ±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
-FWRITE( nHandleOut, cStr )
-FWRITE( nHandleOut, ALLTRIM(STR(BIN2W(SUBSTR(cBuff,3,2)))) )
-FWRITE( nHandleOut, "."                           )
-FWRITE( nHandleOut, ALLTRIM(STR(BIN2W(SUBSTR(cBuff,1,2)))) )
-FWRITE( nHandleOut, CRLF )
-RETURN
+//* ±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+//STATIC PROCEDURE F_WriteVer( nHandleOut, cStr, cBuff )
+//* ±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+//FWRITE( nHandleOut, cStr )
+//FWRITE( nHandleOut, ALLTRIM(STR(BIN2W(SUBSTR(cBuff,3,2)))) )
+//FWRITE( nHandleOut, "."                           )
+//FWRITE( nHandleOut, ALLTRIM(STR(BIN2W(SUBSTR(cBuff,1,2)))) )
+//FWRITE( nHandleOut, CRLF )
+//RETURN
 
 * ±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
 STATIC PROCEDURE F_WriteWord( nHandleOut, cStr, cBuff )

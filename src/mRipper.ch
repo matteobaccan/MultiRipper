@@ -7,7 +7,7 @@
 #ifndef _MRIPPER_CH
    #define _MRIPPER_CH
 
-   #define RIPVERSION   "3.00"
+   #define RIPVERSION   "3.01"
 
    #define FLUSHCACHE
    #define _2_CH0    chr(0)+chr(0)

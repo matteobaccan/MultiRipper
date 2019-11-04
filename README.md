@@ -32,3 +32,11 @@ LBM, GIF, SCX, BMP, RAW, RAS, PNG, TIF, PCX, JPG, TGA, MTR, MPG, FLI, 3DS, AVI, 
 * Generic unpacker system
 * BIN editor
 * Docs in english and italian
+
+# Documentation
+
+Documentation about MRipper is available in [English](mripeng.md) and [Italian](mripita.md). You can also see [library information](mriplibs.md)
+
+I have onverted it from old ASCII dos codepage
+
+iconv.exe -f cp437 -t utf-8 mripeng.txt

@@ -1,1 +1,1 @@
-#define _COMPILE_DATE_ 'Compiled on Wednesday, July 10th, 2019'
+#define _COMPILE_DATE_ 'Compiled on Monday, November 4th, 2019'

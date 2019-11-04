@@ -902,8 +902,8 @@ setcursor(0)
 
 dispbegin()
 F_Menu()
-dfShade( 2, 4, 35, 54  )
-dfsaybox( 2, 5, 35, 55,"n/B" ,"w/b","W/B" )
+dfShade( 2, 4, maxrow()-14, 54  )
+dfsaybox( 2, 5, maxrow()-14, 55,"n/B" ,"w/b","W/B" )
 @ 2, 6       SAY "³"                            COLOR "W+/B"
 @row(),col() say " SeArCh PaTTeRn "             COLOR "b+/W*"
 @Row(),col() say "³"                            COLOR "BG+/B"
@@ -914,7 +914,7 @@ dfsaybox( 2, 5, 35, 55,"n/B" ,"w/b","W/B" )
 dispend()
 
 while .T.
-    nSet := dfWar( 3, 7, 34, 53, ARRCHOICE,.F.,"BG+/B","gr+/r" )
+    nSet := dfWar( 3, 7, maxrow()-15, 53, ARRCHOICE,.F.,"BG+/B","gr+/r" )
     IF lastkey() == K_ENTER
        patt := left( ARRCHOICE[nSet],16)
     ENDIF
