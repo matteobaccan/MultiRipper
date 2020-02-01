@@ -48,26 +48,26 @@
     Peccato che il Demo in questione sia un unico file di 4 MB, non
     composto di singoli file.
 
-    Un'altro caso si riscontra con i famigerati demo 'Only GUS', che in
+    Un altro caso si riscontra con i famigerati demo 'Only GUS', che in
     presenza di una scheda SoundBlaster (o comunque non Gravis) rimangono
     completamente muti... o non partono nemmeno! (Polemica #1: su 100 PC,
-    90 montano una SB o compatible, 10 una GUS )
+    90 montano una SB o compatibile, 10 una GUS )
 
     Come fare quindi ad ascoltarne almeno le musiche, senza dover ordinare
     la GUS direttamente in Canada? (Polemica #2: In Italia ho trovato solo
     un rivenditore, non ufficiale, e il prezzo comprensivo di spese di
-    spedizione risulta pressochè identico a quello Ufficiale americano)
+    spedizione risulta pressoché identico a quello Ufficiale americano)
 
     L'unica soluzione è affidarsi ad un "Ripper", cioè un programma che
     cerca i file all'interno di altri file.
 
-    Ma tutti i rippers che sono riuscito a trovare finora, e ce ne sono a
+    Ma tutti i ripper che sono riuscito a trovare finora, e ce ne sono a
     bizzeffe, al massimo estraggono Moduli Amiga (MOD), Screamtracker 3
     (S3M) e pochi altri.
 
     E le schermate? E gli altri tipi di file sonori ?
 
-    Armandosi di un paio di Hex editors (primo tra i quali l'indispensabile
+    Armandosi di un paio di Hex editor (primo tra i quali l'indispensabile
     HIEW o BIEW) fino ad oggi si potevano estrarre 'a mano' con vari, lunghi
     tentativi e forti mal di testa a furia di fissare schermi pieni di
     numeri e caratteri alla rinfusa.
@@ -88,7 +88,7 @@
     Provate ad utilizzare un qualsiasi Ripper con eseguibili Windows pieni
     zeppi di immagini, icone, cursori etc, nessuno vi estrarrà mai nulla.
 
-    Da questa versione di MultiRipper invece cio non è più vero, infatti
+    Da questa versione di MultiRipper invece ciò non è più vero, infatti
     ora è in grado di estrarre tutte le BitMap, Icone e Cursori dagli
     eseguibili considerati fino ad ora dai programmi DOS inespugnabili
 
@@ -98,7 +98,7 @@
     apposta per Windows 95 o Windows NT, OCX compresi
 
     Nessun prodotto fino ad ora è stato in grado, nello stesso eseguibile,
-    di fare cio, esistono infatti editor di risorse, ma normalmente vi sono
+    di fare ciò, esistono infatti editor di risorse, ma normalmente vi sono
     due eseguibili diversi per i due target.
 
     MultiRipper diventa così un prodotto universale, in grado di passare
@@ -112,7 +112,7 @@
 ───────────────────────────────────────────────────────────────────────────────
 
     Da questa versione MRipper è in grado di decompilare ogni tipo di
-    eseguible Delphi, restituendone la struttura, pronta per l'IDE, MA NON IL
+    eseguibile Delphi, restituendone la struttura, pronta per l'IDE, MA NON IL
     CODICE
     In questo modo è possibile, prendendo un .EXE Delphi, riottenere PARTE del
     sorgente originale.
