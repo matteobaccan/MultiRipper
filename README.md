@@ -1,6 +1,9 @@
 # MultiRipper
 Multi-purpose File Ripper
 
+[![security status](https://www.meterian.io/badge/gh/matteobaccan/MultiRipper/security)](https://www.meterian.io/report/gh/matteobaccan/MultiRipper)
+[![stability status](https://www.meterian.io/badge/gh/matteobaccan/MultiRipper/stability)](https://www.meterian.io/report/gh/matteobaccan/MultiRipper)
+[![licensing status](https://www.meterian.io/badge/gh/matteobaccan/MultiRipper/licensing)](https://www.meterian.io/report/gh/matteobaccan/MultiRipper)
 
 # Some Feature
 Is able to extract over 110 different file formats
