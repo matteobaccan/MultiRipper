@@ -1,6 +1,7 @@
 # MultiRipper
 Multi-purpose File Ripper
 
+[![StyleCI](https://github.styleci.io/repos/195822104/shield?branch=master)](https://github.styleci.io/repos/195822104?branch=master)
 [![security status](https://www.meterian.io/badge/gh/matteobaccan/MultiRipper/security)](https://www.meterian.io/report/gh/matteobaccan/MultiRipper)
 [![stability status](https://www.meterian.io/badge/gh/matteobaccan/MultiRipper/stability)](https://www.meterian.io/report/gh/matteobaccan/MultiRipper)
 [![licensing status](https://www.meterian.io/badge/gh/matteobaccan/MultiRipper/licensing)](https://www.meterian.io/report/gh/matteobaccan/MultiRipper)
